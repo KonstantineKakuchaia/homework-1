@@ -16,7 +16,7 @@ function tempConverter(tempFar) {
     return false;
   }
 }
-console.log("ცელსიუსში გადაყვანის ფუნქცია:", tempConverter("70"));
+console.log("ცელსიუსში გადაყვანის ფუნქცია:", tempConverter(70));
 
 function numbCalc(a, b, operation) {
   if (typeof a === "number" && typeof b === "number") {
